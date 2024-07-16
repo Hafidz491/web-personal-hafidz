@@ -18,7 +18,7 @@ const Heroes = () => {
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.1 }}
-          className="text-[20px] md:heroes-h1 font-bold text-white"
+          className="text-[20px] md:heroes-h1 2xl:heroes-h1-xl font-bold text-white"
         >
           HAFIDZ HIDAYATULLOH
         </motion.h1>
@@ -28,7 +28,7 @@ const Heroes = () => {
           transition={{ duration: 0.5, delay: 0.1 }}
           className="h-[60px]"
         >
-          <h1 className="text-[40px] md:animate-fe font-bold bg-gradient-to-r from-[#05772C] to-[#09C148] bg-clip-text text-transparent">
+          <h1 className="text-[40px] md:animate-fe 2xl:animate-fe-xl font-bold bg-gradient-to-r from-[#05772C] to-[#09C148] bg-clip-text text-transparent">
             {text}
           </h1>
         </motion.div>
@@ -36,7 +36,7 @@ const Heroes = () => {
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.5 }}
-          className="w-[350px] text-[16px] font-thin text-[#D9D9D9] text-center md:desc-heroes"
+          className="w-[350px] text-[16px] font-thin text-[#D9D9D9] text-center md:desc-heroes 2xl:desc-heroes-xl"
         >
           Junior{" "}
           <span className="font-bold text-white">front-end developer</span>,

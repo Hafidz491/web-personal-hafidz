@@ -4,9 +4,9 @@ const ButtonBackToTop = () => {
       <a
         href="#navbar"
         id="to-top"
-        class="h-14 w-14 backdrop-blur-md bg-white/10 border border-white/10 rounded-full fixed z-999 bottom-4 right-4 p-4 items-center justify-center hover:animate-pulse hidden md:block"
+        className="fixed items-center justify-center hidden p-4 border rounded-full h-14 w-14 backdrop-blur-md bg-white/10 border-white/10 z-999 bottom-4 right-4 hover:animate-pulse md:block"
       >
-        <span class="block w-5 h-5 border-t-2 border-l-2 rotate-45 mt-2 mx-auto"></span>
+        <span className="block w-5 h-5 mx-auto mt-2 rotate-45 border-t-2 border-l-2"></span>
       </a>
     </div>
   );

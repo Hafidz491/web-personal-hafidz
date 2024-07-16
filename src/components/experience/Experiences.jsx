@@ -11,12 +11,12 @@ const Experiences = () => {
         and also contribute to the company
       </p>
       <div className="flex justify-center items-center mt-[50px]">
-        <div className="timeline relative md:max-w-[600px] lg:max-w-[900px] sm:max-w-[600px] my-0 mx-auto text-white">
+        <div className="timeline relative md:max-w-[600px] xl:max-w-[900px] sm:max-w-[600px] my-0 mx-auto text-white">
           <ul>
             {experienceHafidz.map((item) => (
               <li
                 key={item.id}
-                className="p-[20px] rounded-[10px] mb-[10px] sm:mb-[20px]"
+                className="card-experience py-[20px] px-[10px] rounded-[10px] mb-[10px] sm:mb-[20px]"
               >
                 <div className="timeline-content">
                   <div className="flex gap-5">
@@ -30,11 +30,13 @@ const Experiences = () => {
                     </div>
                   </div>
                   <p>The Responsibilites:</p>
-                  {item.description.map((item, index) => (
-                    <p key={index} className="text-[16px]">
-                      - {item}
-                    </p>
-                  ))}
+                  <ol>
+                    {item.description.map((item, index) => (
+                      <li key={index} className="mx-4 font-light list-disc">
+                        {item}
+                      </li>
+                    ))}
+                  </ol>
                 </div>
               </li>
             ))}

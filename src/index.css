@@ -29,12 +29,24 @@ body {
     @apply text-[40px];
   }
 
+  .heroes-h1-xl {
+    @apply text-[60px];
+  }
+
   .animate-fe {
     @apply text-[60px] h-[110px];
   }
 
+  .animate-fe-xl {
+    @apply text-[80px] h-[125px] mb-4;
+  }
+
   .desc-heroes {
     @apply mt-[50px] text-[24px] font-thin w-[500px];
+  }
+
+  .desc-heroes-xl {
+    @apply mt-[60px] text-[24px] font-thin w-[600px];
   }
 
   .div-icon {
@@ -131,17 +143,17 @@ body {
   /* FOOTER END */
 }
 
-.timeline ul li:nth-child(1) {
+.timeline ul .card-experience:nth-child(1) {
   background: linear-gradient(#11a7cd 0%, #2464a6 100%);
   border: 3px solid #85c3fc;
 }
 
-.timeline ul li:nth-child(2) {
+.timeline ul .card-experience:nth-child(2) {
   background: linear-gradient(#204e5b 0%, #091930 100%);
   border: 3px solid #3e859d;
 }
 
-.timeline ul li:nth-child(3) {
+.timeline ul .card-experience:nth-child(3) {
   background: linear-gradient(#770000 0%, #200000 100%);
   border: 3px solid #a10000;
 }
@@ -158,25 +170,25 @@ body {
     background-color: #ddd;
   }
 
-  .timeline ul li {
+  .timeline ul .card-experience {
     width: 50%;
     margin-bottom: 50px;
     position: relative;
   }
 
-  .timeline ul li:nth-child(odd) {
+  .timeline ul .card-experience:nth-child(odd) {
     float: left;
     clear: right;
     transform: translateX(-30px);
   }
 
-  .timeline ul li:nth-child(even) {
+  .timeline ul .card-experience:nth-child(even) {
     float: right;
     clear: left;
     transform: translateX(30px);
   }
 
-  .timeline ul li:after {
+  .timeline ul .card-experience:after {
     content: "";
     position: absolute;
     width: 25px;
@@ -186,12 +198,12 @@ body {
     top: 0;
   }
 
-  .timeline ul li:nth-child(odd):after {
+  .timeline ul .card-experience:nth-child(odd):after {
     transform: translate(50%, -50%);
     right: -33px;
   }
 
-  .timeline ul li:nth-child(even):after {
+  .timeline ul .card-experience:nth-child(even):after {
     transform: translate(-50%, -50%);
     left: -33px;
   }
