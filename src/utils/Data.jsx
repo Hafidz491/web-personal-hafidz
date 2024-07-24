@@ -9,6 +9,7 @@ import reactIcon from "../assets/image/react.svg";
 import htmlIcon from "../assets/image/html.svg";
 import cssIcon from "../assets/image/css.svg";
 import jsIcon from "../assets/image/js.svg";
+import tsIcon from "../assets/image/typescript.svg";
 import tailwindIcon from "../assets/image/tailwind.svg";
 import bootstrapIcon from "../assets/image/bootstrap.svg";
 import wordpressIcon from "../assets/image/wordpress.png";
@@ -85,19 +86,23 @@ const iconSkill = [
   },
   {
     id: "3",
-    img: jsIcon,
+    img: bootstrapIcon,
   },
   {
     id: "4",
-    img: reactIcon,
-  },
-  {
-    id: "5",
     img: tailwindIcon,
   },
   {
+    id: "5",
+    img: jsIcon,
+  },
+  {
     id: "6",
-    img: bootstrapIcon,
+    img: tsIcon,
+  },
+  {
+    id: "7",
+    img: reactIcon,
   },
 ];
 
